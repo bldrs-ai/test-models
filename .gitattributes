@@ -1,0 +1,4 @@
+seestrasse31_11[[:space:]](1).ifc filter=lfs diff=lfs merge=lfs -text
+sp-231MB.ifc filter=lfs diff=lfs merge=lfs -text
+sp-469MB.ifc filter=lfs diff=lfs merge=lfs -text
+sp-946MB.ifc filter=lfs diff=lfs merge=lfs -text
