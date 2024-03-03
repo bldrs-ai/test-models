@@ -1,0 +1,14 @@
+{
+  "metadata": {
+    "version": 0.1,
+    "generator": "https://github.com/bldrs-ai/headless-three"
+  },
+  "objects": [
+    {
+      "href": "index.bld"
+    },
+    {
+      "href": "b.bld"
+    }
+  ]
+}
