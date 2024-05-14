@@ -3,6 +3,10 @@ Acorn, the precision farming rover from Twisted Fields.
 
 See https://github.com/Twisted-Fields/acorn-robot-electronics/tree/main/supercap/supercap
 
+<img src="supercap-freecad.png" width="200" alt="supercap"/>
+<img src="supercap2-freecad.png" width="200" alt="supercap2"/>
+<img src="supercap3-freecad.png" width="200" alt="supercap3"/>
+
 # Analysis
 The 3 files have the same types except the second two also have B_SPLINE_SURFACE_WITH_KNOTS.
 
