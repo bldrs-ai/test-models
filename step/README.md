@@ -4,6 +4,32 @@ The relative model complexity goes:
 `acorn-robot-electronics > dsa > zoo.dev`
 
 ## Diffs
+
+### acorn vs dsa+zoo
+`diff acorn-robot-electronics/types.uniq dsa-and-zoo.types.uniq`
+```
+6d5
+< BREP_WITH_VOIDS
+13d11
+< CONTEXT_DEPENDENT_SHAPE_REPRESENTATION
+24d21
+< ITEM_DEFINED_TRANSFORMATION
+28,29c25
+< NEXT_ASSEMBLY_USAGE_OCCURRENCE
+< ORIENTED_CLOSED_SHELL
+---
+> OPEN_SHELL
+31d26
+< OVER_RIDING_STYLED_ITEM
+35d29
+< PRESENTATION_STYLE_BY_CONTEXT
+45a40
+> SHELL_BASED_SURFACE_MODEL
+51d45
+< TOROIDAL_SURFACE
+```
+
+### Misc
 `diff acorn-robot-electronics/supercap.types.uniq zoo.dev/a-gear.types.uniq`
 ```
 1d0
