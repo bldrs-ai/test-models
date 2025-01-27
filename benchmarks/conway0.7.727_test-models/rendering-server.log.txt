@@ -1,0 +1,32 @@
+yarn run v1.22.19
+warning package.json: No license field
+$ node --enable-source-maps build/server.node.js
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8001
+    at __node_internal_captureLargerStackTrace (node:internal/errors:496:5)
+    at __node_internal_uvExceptionWithHostPort (node:internal/errors:593:12)
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.listen (/Users/soar/Documents/GitHub/headless-three/node_modules/express/lib/application.js:635:24)
+    at <anonymous> (/Users/soar/Documents/GitHub/headless-three/src/server/index.js:50:5)
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:336:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 8001
+}
+
+Node.js v18.19.0
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
