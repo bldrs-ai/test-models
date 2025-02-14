@@ -1,0 +1,14 @@
+ok, 3.86s, ifc/Schependomlaan.ifc
+ok, 1.64s, ifc/bldrs/b.ifc
+ok, 1.06s, ifc/bldrs/index.ifc
+ok, 1.00s, ifc/bldrs/ïndex wëird, chars!123.ifc
+ok, 5.18s, ifc/citra/240115_CC.Des.2023.CH-P06-Haus Aarburg.ifc
+ok, 1.36s, ifc/citra/Remigen_Mo.ifc
+ok, 1.01s, ifc/index.ifc
+error, 0.41s, ifc/misc/bath-csg-solid.ifc
+ok, 0.98s, ifc/misc/box.ifc
+ok, 1.50s, ifc/misc/haus.ifc
+ok, 1.15s, ifc/openifcmodels/171210AISC_Sculpture_param.ifc
+ok, 4.81s, ifc/openifcmodels/20160125Trapelo - Existing-Trapelo_Design_Intent.ifc
+ok, 29.09s, ifc/sp/sp-231MB.ifc
+ok, 53.44s, ifc/sp/sp-469MB.ifc
