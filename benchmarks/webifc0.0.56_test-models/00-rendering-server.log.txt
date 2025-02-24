@@ -1,0 +1,88 @@
+yarn run v1.22.22
+warning package.json: No license field
+$ node --enable-source-maps build/server-webifc.node.js
+Listening on 0.0.0.0:8001
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 904595
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 1022014
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 1177391
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 1276606
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 1387123
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 1484950
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 1695632
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 1712255
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 1837394
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 1962280
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 1978889
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 2120002
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 2136622
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6818629
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6822867
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6826301
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6842658
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6842670
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6842673
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6845454
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6845457
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6847729
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6847732
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6849986
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6850000
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6861683
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6869002
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6869014
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6869017
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6870149
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6870161
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6870164
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6871289
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6871304
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6877325
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6878152
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6878155
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6881406
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6881421
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6882403
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6882417
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6883403
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6893992
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6895519
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6895529
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6899732
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6899742
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6915911
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6919321
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6922732
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6934901
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6934914
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6936067
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6936077
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6937215
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6937226
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6945443
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6945456
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6945996
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6946006
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6946543
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6946554
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6960135
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6960490
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6960846
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6981296
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6981306
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6981878
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6981891
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6982467
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6982480
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6986588
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6986955
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 6987321
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 7011582
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 7011592
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 7013837
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 7013853
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 7014379
+[WEB-IFC][error][TriangulateBounds()] No basis found for brep! 7014392
+[Feb 19 2025 11:31:26 PM]: Total Time: 8863 ms, Node Memory Usage: RSS 1809.563 MB, Heap Total: 202.969 MB, Heap Used: 173.161 MB
+[32minfo[39m: [BBFQWTnIQygW87To9yIVn] ::1 - - [2025-02-19T23:31:17.781Z] "POST /renderPanoramic HTTP/1.1" 200 40569 
+[32minfo[39m: [BBFQWTnIQygW87To9yIVn] request headers: {"content-type":"application/json","content-length":"113","host":"localhost:8001","connection":"close"}
+[32minfo[39m: [BBFQWTnIQygW87To9yIVn] request body: {"url":"file:///Users/soar/Documents/GitHub/test-models/ifc/wikihouse/SKYLARK250_design-kit_blocks_detailed.ifc"}

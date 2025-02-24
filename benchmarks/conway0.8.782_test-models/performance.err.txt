@@ -1,0 +1,1 @@
+Error processing file file://../../test-models/ifc/misc/bath-csg-solid.ifc

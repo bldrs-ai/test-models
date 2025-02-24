@@ -1,0 +1,16 @@
+yarn run v1.22.22
+warning package.json: No license field
+$ node --enable-source-maps build/server.node.js
+Listening on 0.0.0.0:8001
+COMPLETE
+┌─────────┬─────────┬─────────────────────────────────┬───────┬────────────┐
+│ (index) │  level  │             message             │ count │ expressIDs │
+├─────────┼─────────┼─────────────────────────────────┼───────┼────────────┤
+│    0    │ 'info'  │ 'Conway Web-Ifc Shim v0.11.800' │   1   │ Set(0) {}  │
+│    1    │ 'error' │   'No basis found for brep!'    │  41   │ Set(0) {}  │
+└─────────┴─────────┴─────────────────────────────────┴───────┴────────────┘
+[Feb 20 2025 02:04:45 AM]: Load Status: OK, Project Name: undefined, Version: IFC4, Conway Version: 0.11.800-NodeMT, Parse Time: 4869 ms, Geometry Time: 27394 ms, Total Time: 32263 ms, Geometry Memory: 185.856 MB, Memory Statistics: Node Memory Usage: RSS 2875.375 MB, Heap Total: 1807.734 MB, Heap Used: 1460.185 MB, Preprocessor Version: 'Trimble SketchUp', Originating System: 'IFC4 model'
+Could not get all types of model.
+[32minfo[39m: [dTJBe5zx_c9DcB-syz5gW] ::1 - - [2025-02-20T02:04:09.327Z] "POST /renderPanoramic HTTP/1.1" 200 40859 
+[32minfo[39m: [dTJBe5zx_c9DcB-syz5gW] request headers: {"content-type":"application/json","content-length":"113","host":"localhost:8001","connection":"close"}
+[32minfo[39m: [dTJBe5zx_c9DcB-syz5gW] request body: {"url":"file:///Users/soar/Documents/GitHub/test-models/ifc/wikihouse/SKYLARK250_design-kit_blocks_detailed.ifc"}
