@@ -1,0 +1,2 @@
+Error processing file file://../../test-models/ifc/misc/bath-csg-solid.ifc
+Error processing file file://../../test-models/ifc/thatopen/ifcfiles/KIT-Simple-Road-Test-Web-IFC4x3_RC2.ifc
