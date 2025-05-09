@@ -1,0 +1,1 @@
+node benchmark.cjs "../../headless-three" "../../test-models"
