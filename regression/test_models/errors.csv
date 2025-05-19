@@ -1,7 +1,8 @@
 message,count,expressids,file
 Error extracting firstOperand geometry for,1,"
-        200 - type: 
-        IFCBLOCK - isRelVoid: False",bath-csg-solid.ifc
+          200 - type: 
+          IFCBLOCK - isRelVoid: False",bath-csg-solid.ifc
+No basis found for brep!,2,,sp-231MB.ifc
 Found null for nonnullable field IfcReflectanceMethodEnum.,9,4035 4370 39964 41778 43835 42027 63478 66593 81593,ISSUE_034_HouseZ.ifc
 "bad bound 1 2
 ",61,,ISSUE_102_M3D-CON-CD.ifc
