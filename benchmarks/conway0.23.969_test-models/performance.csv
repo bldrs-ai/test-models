@@ -1,0 +1,48 @@
+ok, 2.93s, ifc/Schependomlaan.ifc
+ok, 10.06s, ifc/autodesk/snowdon/Snowdon Towers Sample Architectural_IFC2x3.ifc
+ok, 7.18s, ifc/autodesk/snowdon/Snowdon Towers Sample Architectural_IFC4.ifc
+ok, 1.53s, ifc/bldrs/b.ifc
+ok, 0.91s, ifc/bldrs/index.ifc
+ok, 0.89s, ifc/bldrs/ïndex wëird, chars!123.ifc
+ok, 3.12s, ifc/citra/240115_CC.Des.2023.CH-P06-Haus Aarburg.ifc
+ok, 1.00s, ifc/citra/House Aarburg IFC (1).ifc
+ok, 1.09s, ifc/citra/Remigen_Mo.ifc
+ok, 0.88s, ifc/index.ifc
+ok, 3.54s, ifc/misc/MB-Khaya.ifc
+ok, 3.82s, ifc/misc/Stohr - IFC Test.ifc
+ok, 0.93s, ifc/misc/bath-csg-solid.ifc
+ok, 0.86s, ifc/misc/box.ifc
+ok, 1.22s, ifc/misc/haus.ifc
+ok, 1.04s, ifc/openifcmodels/171210AISC_Sculpture_param.ifc
+ok, 3.42s, ifc/openifcmodels/20160125Trapelo - Existing-Trapelo_Design_Intent.ifc
+ok, 18.79s, ifc/sp/sp-231MB.ifc
+ok, 35.50s, ifc/sp/sp-469MB.ifc
+ok, 80.33s, ifc/sp/sp-946MB.ifc
+ok, 1.20s, ifc/thatopen/ifcfiles/AC20-FZK-Haus.ifc
+ok, 2.43s, ifc/thatopen/ifcfiles/C20-Institute-Var-2.ifc
+ok, 3.14s, ifc/thatopen/ifcfiles/FM_ARC_DigitalHub.ifc
+ok, 1.20s, ifc/thatopen/ifcfiles/ISSUE_005_haus.ifc
+ok, 2.16s, ifc/thatopen/ifcfiles/ISSUE_021_Mini Project.ifc
+ok, 1.26s, ifc/thatopen/ifcfiles/ISSUE_034_HouseZ.ifc
+ok, 0.94s, ifc/thatopen/ifcfiles/ISSUE_044_test_IFCCOMPOSITEPROFILEDEF.ifc
+ok, 4.52s, ifc/thatopen/ifcfiles/ISSUE_068_ARK_NUS_skolebygg.ifc
+ok, 2.78s, ifc/thatopen/ifcfiles/ISSUE_102_M3D-CON-CD.ifc
+ok, 1.28s, ifc/thatopen/ifcfiles/ISSUE_102_M3D-CON.ifc
+ok, 1.32s, ifc/thatopen/ifcfiles/ISSUE_126_model.ifc
+ok, 2.19s, ifc/thatopen/ifcfiles/ISSUE_129_N1540_17_EXE_MOD_448200_02_09_11SMC_IGC_V17.ifc
+ok, 2.62s, ifc/thatopen/ifcfiles/ISSUE_159_kleine_Wohnung_R22.ifc
+ok, 1.00s, ifc/thatopen/ifcfiles/ISSUE_171_IfcSurfaceCurveSweptAreaSolid.ifc
+ok, 1.00s, ifc/thatopen/ifcfiles/IfcOpenHouse_IFC4.ifc
+error, 0.26s, ifc/thatopen/ifcfiles/KIT-Simple-Road-Test-Web-IFC4x3_RC2.ifc
+ok, 1.34s, ifc/thatopen/ifcfiles/Office_A_20110811.ifc
+ok, 4.87s, ifc/thatopen/ifcfiles/S_Office_Integrated Design Archi.ifc
+ok, 0.91s, ifc/thatopen/ifcfiles/Sample_entities.ifc
+ok, 3.46s, ifc/thatopen/ifcfiles/advanced_model.ifc
+ok, 1.94s, ifc/thatopen/ifcfiles/dental_clinic.ifc
+ok, 1.21s, ifc/thatopen/ifcfiles/duplex.ifc
+ok, 1.00s, ifc/thatopen/ifcfiles/example.ifc
+ok, 1.94s, ifc/thatopen/ifcfiles/ifcbridge-model01.ifc
+ok, 2.59s, ifc/thatopen/ifcfiles/schependomlaan.ifc
+ok, 1.08s, ifc/thatopen/ifcfiles/tested_sample_project.ifc
+ok, 24.15s, ifc/wikihouse/SKYLARK250_design-kit_blocks_detailed.ifc
+fail, 534.31s, ALL_FILES
