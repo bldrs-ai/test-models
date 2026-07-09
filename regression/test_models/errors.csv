@@ -1738,3 +1738,39 @@ in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1
 in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Equiptment_3mLSyringe.step
 "CDT Exception (plane svg: 0) ((19.379713,-60.000000),(40.000000,-60.000000)) -> ((23.752988,-60.059631),(23.067728,-59.723141)): Intersecting constraint edges detected: (27, 28) intersects (21, 22)
 in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,TestSetup_UltrasoundTransducerScattering.step
+"CDT Exception (hemisphere: 0, svg: 2) ((0.002146,1.521327),(0.000000,1.500000)) -> ((0.058524,1.498858),(0.000000,1.500000)): Intersecting constraint edges detected: (86, 87) intersects (22, 23)
+in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Jetenginestep.stp
+"CDT Exception (hemisphere: 1, svg: 0) ((0.002086,1.478670),(0.000000,1.500000)) -> ((0.058524,1.498858),(0.000000,1.500000)): Intersecting constraint edges detected: (86, 87) intersects (22, 23)
+in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Jetenginestep.stp
+"CDT Exception (hemisphere: 0, svg: 3) ((0.658145,-1.371599),(0.650826,-1.351453)) -> ((0.597602,-1.375817),(0.650826,-1.351453)): Intersecting constraint edges detected: (86, 87) intersects (22, 23)
+in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Jetenginestep.stp
+"CDT Exception (hemisphere: 1, svg: 1) ((0.639692,-1.333141),(0.650826,-1.351453)) -> ((0.597602,-1.375817),(0.650826,-1.351453)): Intersecting constraint edges detected: (86, 87) intersects (22, 23)
+in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Jetenginestep.stp
+"CDT Exception (hemisphere: 0, svg: 4) ((-0.662012,-1.369737),(-0.650826,-1.351453)) -> ((-0.703058,-1.325032),(-0.650826,-1.351453)): Intersecting constraint edges detected: (86, 87) intersects (22, 23)
+in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Jetenginestep.stp
+"CDT Exception (hemisphere: 1, svg: 2) ((-0.643450,-1.331331),(-0.650826,-1.351453)) -> ((-0.703058,-1.325032),(-0.650826,-1.351453)): Intersecting constraint edges detected: (86, 87) intersects (22, 23)
+in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Jetenginestep.stp
+"CDT Exception (hemisphere: 0, svg: 5) ((0.000000,1.500000),(-0.058524,1.498858)) -> ((0.000000,1.500000),(-0.001973,1.519631)): Intersecting constraint edges detected: (87, 88) intersects (23, 24)
+in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Jetenginestep.stp
+"CDT Exception (hemisphere: 1, svg: 3) ((0.000000,1.500000),(-0.058524,1.498858)) -> ((0.000000,1.500000),(-0.001922,1.480366)): Intersecting constraint edges detected: (87, 88) intersects (23, 24)
+in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Jetenginestep.stp
+"CDT Exception (hemisphere: 0, svg: 6): Duplicate vertex detected: #23 is a duplicate of #133
+in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,Jetenginestep.stp
+"CDT Exception (hemisphere: 1, svg: 4): Duplicate vertex detected: #23 is a duplicate of #133
+in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,Jetenginestep.stp
+"CDT Exception (hemisphere: 0, svg: 7): Duplicate vertex detected: #133 is a duplicate of #23
+in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,Jetenginestep.stp
+"CDT Exception (hemisphere: 1, svg: 5): Duplicate vertex detected: #133 is a duplicate of #23
+in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,Jetenginestep.stp
+"CDT Exception (hemisphere: 0, svg: 8): Duplicate vertex detected: #138 is a duplicate of #161
+in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,Jetenginestep.stp
+"CDT Exception (hemisphere: 1, svg: 6): Duplicate vertex detected: #161 is a duplicate of #138
+in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,Jetenginestep.stp
+"CDT Exception (hemisphere: 0, svg: 9): Duplicate vertex detected: #230 is a duplicate of #253
+in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,Jetenginestep.stp
+"CDT Exception (hemisphere: 1, svg: 7): Duplicate vertex detected: #230 is a duplicate of #253
+in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,Jetenginestep.stp
+"CDT Exception (hemisphere: 0, svg: 10) ((-1.482706,0.340619),(-1.462392,0.333781)) -> ((-1.448256,0.390584),(-1.462392,0.333781)): Intersecting constraint edges detected: (86, 87) intersects (22, 23)
+in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Jetenginestep.stp
+"CDT Exception (hemisphere: 1, svg: 8) ((-1.441133,0.331069),(-1.462392,0.333781)) -> ((-1.448256,0.390584),(-1.462392,0.333781)): Intersecting constraint edges detected: (86, 87) intersects (22, 23)
+in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Jetenginestep.stp
