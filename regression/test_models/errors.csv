@@ -1,6 +1,13 @@
 message,count,expressids,file
 Found null for nonnullable field IfcReflectanceMethodEnum.,9,4035 4370 39964 41778 43835 42027 63478 66593 81593,ISSUE_034_HouseZ.ifc
+"Invalid STEP detected in parse, but no syntax error detected",1,,ISSUE_098_R8_F1_MAB_AR_M3_XX_XXX_MO_7000.IFC
+No IfcProjects found?,1,,ISSUE_098_R8_F1_MAB_AR_M3_XX_XXX_MO_7000.IFC
 No basis found for brep!,12,,ISSUE_126_model.ifc
+"CDT Exception (revolution unwrap): Could not find vertex triangle intersected by an edge.
+in 'intersectedTriangle' at ../external/CDT/CDT/include/Triangulation.hpp:983",7,,ISSUE_159_kleine_Wohnung_R22.ifc
+"Couldn't extract mapped representation item
+	memory access out of bounds
+	 Express ID #162827",1,,ISSUE_159_kleine_Wohnung_R22.ifc
 "Error processing relAggregate
 	error: Value in STEP was incorrectly typed
 	 express ID: #370003",1,,KIT-Simple-Road-Test-Web-IFC4x3_RC2.ifc
@@ -44,365 +51,13 @@ No basis found for brep!,12,,ISSUE_126_model.ifc
 	error: Value in STEP was incorrectly typed
 	 express ID: #61020003",1,,KIT-Simple-Road-Test-Web-IFC4x3_RC2.ifc
 No basis found for brep!,12,,S_Office_Integrated Design Archi.ifc
-Error processing relatingMaterial,1,"271790, error: Value in select must be populated",ifcbridge-model01.ifc
+Error processing IfcRelAssociatesMaterial,1,"284328, error: Value in select must be populated",ifcbridge-model01.ifc
 No basis found for brep!,41,,SKYLARK250_design-kit_blocks_detailed.ifc
-"CDT Exception (hemisphere: 0, svg: 0) ((1.373023,0.603993),(1.388280,0.568048)) -> ((1.385820,0.574023),(1.365051,0.621801)): Intersecting constraint edges detected: (2, 3) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,supercap.step
-"CDT Exception (hemisphere: 0, svg: 2) ((0.800987,-0.836719),(0.823344,-0.816282)) -> ((0.819820,-0.819820),(0.788744,-0.845917)): Intersecting constraint edges detected: (2, 3) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,supercap.step
-"CDT Exception (hemisphere: 1, svg: 0) ((1.273556,-1.330369),(1.307094,-1.295882)) -> ((1.301500,-1.301500),(1.257132,-1.348255)): Intersecting constraint edges detected: (2, 3) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,supercap.step
-"CDT Exception (hemisphere: 0, svg: 3) ((1.683116,0.740581),(1.703513,0.697034)) -> ((1.700495,0.704365),(1.670742,0.761507)): Intersecting constraint edges detected: (25, 26) intersects (23, 24)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,supercap.step
-"CDT Exception (hemisphere: 1, svg: 1) ((1.062823,0.467649),(1.073047,0.439063)) -> ((1.071146,0.443681),(1.059076,0.482716)): Intersecting constraint edges detected: (25, 26) intersects (23, 24)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,supercap.step
-"CDT Exception (hemisphere: 0, svg: 0) ((1.373023,0.603993),(1.388280,0.568048)) -> ((1.385820,0.574023),(1.365051,0.621801)): Intersecting constraint edges detected: (2, 3) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,supercap2.step
-"CDT Exception (hemisphere: 0, svg: 2) ((0.800987,-0.836719),(0.823344,-0.816282)) -> ((0.819820,-0.819820),(0.788744,-0.845917)): Intersecting constraint edges detected: (2, 3) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,supercap2.step
-"CDT Exception (hemisphere: 1, svg: 0) ((1.273556,-1.330369),(1.307094,-1.295882)) -> ((1.301500,-1.301500),(1.257132,-1.348255)): Intersecting constraint edges detected: (2, 3) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,supercap2.step
-"CDT Exception (hemisphere: 0, svg: 3) ((1.683116,0.740581),(1.703513,0.697034)) -> ((1.700495,0.704365),(1.670742,0.761507)): Intersecting constraint edges detected: (25, 26) intersects (23, 24)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,supercap2.step
-"CDT Exception (hemisphere: 1, svg: 1) ((1.062823,0.467649),(1.073047,0.439063)) -> ((1.071146,0.443681),(1.059076,0.482716)): Intersecting constraint edges detected: (25, 26) intersects (23, 24)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,supercap2.step
-Error extracting face ADVANCED_FACE - [object Object] -,1,#3371,supercap2.step
-No basis found for brep!,1,,supercap2.step
-"CDT Exception (hemisphere: 0, svg: 0) ((1.373023,0.603993),(1.388280,0.568048)) -> ((1.385820,0.574023),(1.365051,0.621801)): Intersecting constraint edges detected: (2, 3) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,supercap3.step
-"CDT Exception (hemisphere: 0, svg: 2) ((0.800987,-0.836719),(0.823344,-0.816282)) -> ((0.819820,-0.819820),(0.788744,-0.845917)): Intersecting constraint edges detected: (2, 3) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,supercap3.step
-"CDT Exception (hemisphere: 1, svg: 0) ((1.273556,-1.330369),(1.307094,-1.295882)) -> ((1.301500,-1.301500),(1.257132,-1.348255)): Intersecting constraint edges detected: (2, 3) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,supercap3.step
-"CDT Exception (hemisphere: 0, svg: 3) ((1.683116,0.740581),(1.703513,0.697034)) -> ((1.700495,0.704365),(1.670742,0.761507)): Intersecting constraint edges detected: (25, 26) intersects (23, 24)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,supercap3.step
-"CDT Exception (hemisphere: 1, svg: 1) ((1.062823,0.467649),(1.073047,0.439063)) -> ((1.071146,0.443681),(1.059076,0.482716)): Intersecting constraint edges detected: (25, 26) intersects (23, 24)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,supercap3.step
-Error extracting face ADVANCED_FACE - [object Object] -,1,#3371,supercap3.step
-No basis found for brep!,1,,supercap3.step
-Error populating styled item map for item 5399: Error: Value in STEP was incorrectly typed,1,,NEMA 23 - 76mm.STEP
-Error populating styled item map for item 6764: Error: Value in STEP was incorrectly typed,1,,NEMA 23 - 76mm.STEP
-Error extracting face ADVANCED_FACE - [object Object] -,8,#567948 #567952 #568014 #568097 #568217 #568221 #568280 #568363,Arty_Z7.stp
-No basis found for brep!,1,,Arty_Z7.stp
-"CDT Exception (plane svg: 403) ((3.402843,-4.102843),(3.443534,-4.107026)) -> ((3.442151,-4.107026),(3.482843,-4.102843)): Intersecting constraint edges detected: (137, 138) intersects (135, 136)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Arty_Z7.stp
-"CDT Exception (plane svg: 413) ((-0.075207,-0.299304),(-0.200793,0.169154)) -> ((-0.000000,-0.035844),(-0.136058,-0.072319)): Intersecting constraint edges detected: (26, 30) intersects (24, 25)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Arty_Z7.stp
-"CDT Exception (plane svg: 516) ((-9.156762,7.920619),(-6.542393,7.561282)) -> ((-8.432520,7.821074),(-8.560668,6.888729)): Intersecting constraint edges detected: (294, 352) intersects (295, 296)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Arty_Z7.stp
-"CDT Exception (plane svg: 309) ((-1.713082,18.960420),(-1.724176,18.965636)) -> ((-1.719427,18.963387),(-1.656704,18.936403)): Intersecting constraint edges detected: (79, 80) intersects (73, 74)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,driver board.step
-"CDT Exception (plane svg: 330) ((-11.203708,14.749465),(-11.181071,14.813884)) -> ((-11.179509,14.818901),(-11.183186,14.807207)): Intersecting constraint edges detected: (51, 52) intersects (45, 46)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,driver board.step
+"Invalid STEP detected in parse, but no syntax error detected",1,,NEMA 23 - 76mm.STEP
 No basis found for brep!,2,,nist_ctc_02_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 0) ((0.870219,0.502050),(0.891192,0.514149)) -> ((0.882246,0.508988),(0.867195,0.500305)): Intersecting constraint edges detected: (39, 40) intersects (37, 38)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 0) ((1.728337,0.997118),(1.707365,0.985018)) -> ((1.716311,0.990179),(1.731362,0.998862)): Intersecting constraint edges detected: (39, 40) intersects (37, 38)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 2): Duplicate vertex detected: #45 is a duplicate of #4294967295
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 1): Duplicate vertex detected: #27 is a duplicate of #4294967294
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-Error extracting face ADVANCED_FACE - [object Object] -,9,#6553 #6745 #8256 #8352 #8646 #8742 #9858 #11726 #11865,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 5) ((1.299278,0.749584),(1.315995,0.719832)) -> ((1.358251,0.783606),(1.269723,0.732533)): Intersecting constraint edges detected: (46, 47) intersects (30, 31)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 2) ((1.299278,0.749584),(1.315995,0.719832)) -> ((1.240306,0.715561),(1.328834,0.766635)): Intersecting constraint edges detected: (46, 47) intersects (30, 31)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 8): Duplicate vertex detected: #14 is a duplicate of #4294967295
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 3): Duplicate vertex detected: #12 is a duplicate of #39
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 9) ((0.867195,0.500305),(0.882246,0.508988)) -> ((0.891192,0.514149),(0.870219,0.502050)): Intersecting constraint edges detected: (54, 55) intersects (52, 53)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 4) ((1.731362,0.998862),(1.716311,0.990179)) -> ((1.707365,0.985018),(1.728337,0.997118)): Intersecting constraint edges detected: (54, 55) intersects (52, 53)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 10) ((0.891192,0.514149),(0.929235,0.536097)) -> ((0.963323,0.555764),(0.914742,0.527736)): Intersecting constraint edges detected: (17, 18) intersects (12, 13)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 5) ((1.707365,0.985018),(1.669321,0.963070)) -> ((1.635233,0.943404),(1.683815,0.971432)): Intersecting constraint edges detected: (17, 18) intersects (12, 13)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 12): Duplicate vertex detected: #19 is a duplicate of #4294967295
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 6): Duplicate vertex detected: #10 is a duplicate of #4294967295
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 14) ((1.269723,0.732533),(1.358251,0.783606)) -> ((1.315995,0.719832),(1.299278,0.749584)): Intersecting constraint edges detected: (61, 62) intersects (45, 46)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 7) ((1.328834,0.766635),(1.240306,0.715561)) -> ((1.315995,0.719832),(1.299278,0.749584)): Intersecting constraint edges detected: (61, 62) intersects (45, 46)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 15) ((0.000000,1.056057),(0.000000,1.112144)) -> ((0.000000,1.134582),(0.000000,1.072790)): Intersecting constraint edges detected: (56, 57) intersects (50, 51)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 8) ((0.000000,1.943943),(0.000000,1.887856)) -> ((0.000000,1.865418),(0.000000,1.927210)): Intersecting constraint edges detected: (56, 57) intersects (50, 51)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 18) ((-0.000000,1.431917),(-0.000000,1.534121)) -> ((-0.000000,1.500000),(-0.305184,1.468626)): Intersecting constraint edges detected: (76, 77) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 9) ((-0.000000,1.568083),(-0.000000,1.465879)) -> ((-0.000000,1.500000),(-0.305184,1.468626)): Intersecting constraint edges detected: (76, 77) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 20): Duplicate vertex detected: #31 is a duplicate of #9
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 10): Duplicate vertex detected: #38 is a duplicate of #4294967295
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 22) ((0.000000,1.995343),(0.000000,1.971130)) -> ((0.000000,1.943943),(0.000000,1.981459)): Intersecting constraint edges detected: (85, 86) intersects (82, 83)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 11) ((0.000000,1.004657),(0.000000,1.028870)) -> ((0.000000,1.056057),(0.000000,1.018541)): Intersecting constraint edges detected: (85, 86) intersects (82, 83)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 24): Duplicate vertex detected: #31 is a duplicate of #9
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 12): Duplicate vertex detected: #25 is a duplicate of #10
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 0): Duplicate vertex detected: #16 is a duplicate of #4294967294
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 0): Duplicate vertex detected: #17 is a duplicate of #4294967294
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 25) ((1.981459,-0.000000),(1.943943,0.000000)) -> ((1.971130,0.000000),(1.995343,0.000000)): Intersecting constraint edges detected: (78, 79) intersects (75, 76)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 13) ((1.018541,-0.000000),(1.056057,0.000000)) -> ((1.028870,0.000000),(1.004657,0.000000)): Intersecting constraint edges detected: (78, 79) intersects (75, 76)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 1): Duplicate vertex detected: #16 is a duplicate of #4294967294
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 2): Duplicate vertex detected: #10 is a duplicate of #4294967294
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 2): Duplicate vertex detected: #16 is a duplicate of #4294967294
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 4): Duplicate vertex detected: #17 is a duplicate of #4294967294
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 26) ((1.728337,0.997118),(1.707365,0.985018)) -> ((1.683815,0.971432),(1.716311,0.990179)): Intersecting constraint edges detected: (39, 40) intersects (36, 37)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 14) ((0.870219,0.502050),(0.891192,0.514149)) -> ((0.914742,0.527736),(0.882246,0.508988)): Intersecting constraint edges detected: (39, 40) intersects (36, 37)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 5) ((-0.187608,0.938902),(0.130537,0.029432)) -> ((-0.219950,0.975511),(0.129837,0.032642)): Intersecting constraint edges detected: (54, 55) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 5): Duplicate vertex detected: #16 is a duplicate of #4294967294
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 7): Duplicate vertex detected: #17 is a duplicate of #4294967294
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 6): Duplicate vertex detected: #16 is a duplicate of #4294967294
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 8): Duplicate vertex detected: #10 is a duplicate of #4294967294
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 27) ((-1.995343,0.000000),(-1.971130,0.000000)) -> ((-1.981459,0.000000),(-1.998834,0.000000)): Intersecting constraint edges detected: (39, 40) intersects (37, 38)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 15) ((-1.004657,0.000000),(-1.028870,0.000000)) -> ((-1.018541,0.000000),(-1.001166,0.000000)): Intersecting constraint edges detected: (39, 40) intersects (37, 38)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 9) ((0.464566,0.604170),(0.994353,0.106123)) -> ((-0.072100,0.675567),(0.982492,0.130866)): Intersecting constraint edges detected: (31, 32) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 8) ((0.023845,0.008380),(-0.000535,-0.000188)) -> ((0.000773,-0.002199),(-0.003088,0.008787)): Intersecting constraint edges detected: (82, 83) intersects (14, 15)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 11) ((-0.286018,0.882489),(0.049798,0.017501)) -> ((-0.331567,0.943432),(0.048248,0.022486)): Intersecting constraint edges detected: (72, 73) intersects (23, 24)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 12) ((-0.055506,0.677220),(0.994353,0.106123)) -> ((-0.072100,0.675567),(0.983214,0.129410)): Intersecting constraint edges detected: (86, 87) intersects (23, 24)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 14): Duplicate vertex detected: #16 is a duplicate of #4294967295
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 11): Duplicate vertex detected: #34 is a duplicate of #4294967295
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 15): Duplicate vertex detected: #34 is a duplicate of #4294967295
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 12) ((0.009308,0.000336),(-0.002330,-0.000084)) -> ((0.000020,-0.000567),(-0.000912,0.025258)): Intersecting constraint edges detected: (78, 79) intersects (11, 12)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 17): Duplicate vertex detected: #46 is a duplicate of #9
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 15) ((0.192299,-0.981336),(0.387935,-0.921687)) -> ((0.294062,-1.097453),(0.241157,-0.900009)): Intersecting constraint edges detected: (37, 38) intersects (6, 7)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 18): Duplicate vertex detected: #0 is a duplicate of #44
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_rd.stp
-"CDT Exception (hole fill): Intersecting constraint edges detected: (9, 12) intersects (6, 7)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_06_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 3): Duplicate vertex detected: #23 is a duplicate of #15
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ftc_06_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 4): Duplicate vertex detected: #23 is a duplicate of #21
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ftc_06_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 0) ((0.002402,0.000657),(-0.009396,0.001027)) -> ((-0.000000,-0.008605),(-0.000000,0.002764)): Intersecting constraint edges detected: (37, 38) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 0) ((-0.148185,0.988960),(0.056882,0.998381)) -> ((-0.000000,1.056882),(-0.000000,0.851815)): Intersecting constraint edges detected: (53, 54) intersects (15, 16)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 1) ((-0.931804,0.017374),(-1.136227,0.017103)) -> ((-0.991395,-0.130902),(-0.997236,0.074298)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 1) ((-1.067848,0.019911),(-0.863547,0.012998)) -> ((-0.991395,-0.130902),(-0.997236,0.074298)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 2) ((1.067848,0.019911),(0.863547,0.012998)) -> ((0.991395,-0.130902),(0.997236,0.074298)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 2) ((0.931804,0.017374),(1.136227,0.017103)) -> ((0.991395,-0.130902),(0.997236,0.074298)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 3) ((0.148185,0.988960),(-0.056882,0.998381)) -> ((0.000000,1.056882),(0.000000,0.851815)): Intersecting constraint edges detected: (53, 54) intersects (15, 16)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 3) ((-0.002402,0.000657),(0.009396,0.001027)) -> ((0.000000,-0.008605),(0.000000,0.002764)): Intersecting constraint edges detected: (37, 38) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 4) ((-0.038635,0.959000),(0.116403,1.098633)) -> ((0.148185,0.988960),(-0.056882,0.998381)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 4) ((-0.041873,1.039379),(0.094323,0.890235)) -> ((0.148185,0.988960),(-0.056882,0.998381)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 5) ((0.000000,1.056882),(0.000000,0.851815)) -> ((-0.094322,0.890234),(0.041874,1.039378)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 5) ((0.000000,0.943118),(0.000000,1.148185)) -> ((-0.116402,1.098633),(0.038636,0.959001)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 6) ((-0.293225,0.030895),(-0.293898,-0.054880)) -> ((-0.451617,0.008435),(-0.269234,0.006978)): Intersecting constraint edges detected: (37, 38) intersects (8, 9)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 6) ((-1.695765,0.178673),(-1.672120,-0.312236)) -> ((-1.548034,0.028912),(-1.730095,0.044839)): Intersecting constraint edges detected: (38, 39) intersects (9, 10)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 7) ((-1.067848,0.019911),(-0.863547,0.012998)) -> ((-0.991396,-0.130902),(-0.997236,0.074298)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 7) ((-0.931804,0.017374),(-1.136227,0.017103)) -> ((-0.991395,-0.130902),(-0.997236,0.074298)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 8) ((0.041873,1.039379),(-0.094323,0.890235)) -> ((-0.148185,0.988960),(0.056882,0.998381)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 8) ((0.038635,0.959000),(-0.116403,1.098633)) -> ((-0.148185,0.988960),(0.056882,0.998381)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 9) ((-0.991395,-0.130902),(-0.997236,0.074298)) -> ((-1.067848,0.019911),(-0.863547,0.012998)): Intersecting constraint edges detected: (53, 54) intersects (15, 16)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 9) ((-0.000000,0.002764),(-0.000000,-0.008605)) -> ((0.009396,0.001027),(-0.002402,0.000657)): Intersecting constraint edges detected: (37, 38) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 10) ((-0.997236,0.074298),(-0.991395,-0.130902)) -> ((-1.136227,0.017103),(-0.931804,0.017374)): Intersecting constraint edges detected: (37, 38) intersects (6, 7)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 10) ((-0.997236,0.074298),(-0.991396,-0.130902)) -> ((-0.863547,0.012998),(-1.067848,0.019911)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 11) ((0.997236,0.074298),(0.991395,-0.130902)) -> ((0.863547,0.012998),(1.067848,0.019911)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 11) ((0.997236,0.074298),(0.991395,-0.130902)) -> ((1.136227,0.017103),(0.931804,0.017374)): Intersecting constraint edges detected: (37, 38) intersects (6, 7)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 12) ((-0.002402,0.000657),(0.009396,0.001027)) -> ((-0.000000,-0.008605),(-0.000000,0.002764)): Intersecting constraint edges detected: (37, 38) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 12) ((0.148185,0.988960),(-0.056882,0.998381)) -> ((-0.000000,1.056883),(-0.000000,0.851816)): Intersecting constraint edges detected: (53, 54) intersects (15, 16)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 13) ((0.997236,0.074298),(0.991396,-0.130902)) -> ((0.863547,0.012998),(1.067848,0.019911)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 13) ((0.997236,0.074298),(0.991395,-0.130902)) -> ((1.136227,0.017103),(0.931804,0.017374)): Intersecting constraint edges detected: (37, 38) intersects (6, 7)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 14) ((0.000000,0.002764),(0.000000,-0.008605)) -> ((-0.009396,0.001027),(0.002402,0.000657)): Intersecting constraint edges detected: (37, 38) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 14) ((0.991395,-0.130902),(0.997236,0.074298)) -> ((1.067848,0.019911),(0.863547,0.012998)): Intersecting constraint edges detected: (53, 54) intersects (15, 16)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 15) ((-0.000000,0.002764),(-0.000000,-0.008605)) -> ((-0.009396,0.001027),(0.002402,0.000657)): Intersecting constraint edges detected: (37, 38) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 15) ((0.991396,-0.130902),(0.997236,0.074298)) -> ((1.067848,0.019911),(0.863547,0.012998)): Intersecting constraint edges detected: (53, 54) intersects (15, 16)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 16) ((0.000000,0.002764),(0.000000,-0.008605)) -> ((-0.020993,0.001611),(0.000654,0.000340)): Intersecting constraint edges detected: (37, 38) intersects (9, 10)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 16) ((1.672120,-0.312236),(1.695765,0.178673)) -> ((1.730095,0.044839),(1.548034,0.028912)): Intersecting constraint edges detected: (53, 54) intersects (13, 14)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 17) ((0.056882,0.998381),(-0.148185,0.988960)) -> ((-0.116403,1.098633),(0.038635,0.959000)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 1, svg: 17) ((0.056882,0.998381),(-0.148185,0.988960)) -> ((-0.094323,0.890235),(0.041873,1.039379)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_07_asme1_rd.stp
-"CDT Exception (hemisphere: 0, svg: 0): Duplicate vertex detected: #16 is a duplicate of #4294967295
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 1, svg: 0): Duplicate vertex detected: #22 is a duplicate of #4294967295
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 1): Duplicate vertex detected: #34 is a duplicate of #86
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 1, svg: 0): Duplicate vertex detected: #45 is a duplicate of #4294967295
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 3): Duplicate vertex detected: #35 is a duplicate of #54
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 1, svg: 1): Duplicate vertex detected: #45 is a duplicate of #4294967295
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 4): Duplicate vertex detected: #27 is a duplicate of #4294967294
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 1, svg: 2): Duplicate vertex detected: #40 is a duplicate of #85
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 5) ((1.534121,0.000000),(1.431917,0.000000)) -> ((1.457350,-0.355147),(1.500000,0.000000)): Intersecting constraint edges detected: (38, 39) intersects (22, 23)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 1, svg: 3) ((1.465879,0.000000),(1.568083,0.000000)) -> ((1.457351,-0.355147),(1.500000,0.000000)): Intersecting constraint edges detected: (38, 39) intersects (22, 23)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 6) ((1.534121,0.000000),(1.431917,0.000000)) -> ((1.457350,-0.355147),(1.500000,0.000000)): Intersecting constraint edges detected: (38, 39) intersects (22, 23)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 1, svg: 4) ((1.465879,0.000000),(1.568083,0.000000)) -> ((1.457351,-0.355147),(1.500000,0.000000)): Intersecting constraint edges detected: (38, 39) intersects (22, 23)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_rc.stp
-Error extracting face ADVANCED_FACE - [object Object] -,6,#4024 #4092 #4448 #5510 #5665 #5709,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 8): Duplicate vertex detected: #41 is a duplicate of #4294967294
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 1, svg: 5): Duplicate vertex detected: #26 is a duplicate of #4294967294
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 9) ((1.012518,1.012518),(1.084787,1.084787)) -> ((1.060660,1.060660),(0.779376,1.281629)): Intersecting constraint edges detected: (76, 77) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 1, svg: 6) ((1.108802,1.108802),(1.036533,1.036533)) -> ((1.060661,1.060660),(0.779376,1.281629)): Intersecting constraint edges detected: (76, 77) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 10) ((1.534121,0.000000),(1.431917,0.000000)) -> ((1.457350,-0.355147),(1.500000,0.000000)): Intersecting constraint edges detected: (38, 39) intersects (22, 23)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 1, svg: 7) ((1.465879,0.000000),(1.568083,0.000000)) -> ((1.457351,-0.355147),(1.500000,0.000000)): Intersecting constraint edges detected: (38, 39) intersects (22, 23)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 1): No triangle was found at position
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1610",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 2) ((0.007389,0.005670),(-0.001849,-0.001419)) -> ((-0.000304,-0.002311),(0.001216,0.009234)): Intersecting constraint edges detected: (52, 53) intersects (14, 15)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 3) ((0.007389,0.005670),(-0.001849,-0.001419)) -> ((-0.000304,-0.002311),(0.001216,0.009234)): Intersecting constraint edges detected: (52, 53) intersects (14, 15)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 4) ((0.007389,0.005670),(-0.001849,-0.001419)) -> ((-0.000304,-0.002311),(0.001216,0.009234)): Intersecting constraint edges detected: (52, 53) intersects (14, 15)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 5) ((0.007389,0.005670),(-0.001850,-0.001419)) -> ((-0.000304,-0.002311),(0.001216,0.009234)): Intersecting constraint edges detected: (52, 53) intersects (14, 15)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 6) ((0.007389,0.005670),(-0.001849,-0.001419)) -> ((-0.000304,-0.002311),(0.001216,0.009234)): Intersecting constraint edges detected: (52, 53) intersects (14, 15)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 7) ((0.007389,0.005670),(-0.001849,-0.001419)) -> ((-0.000304,-0.002311),(0.001216,0.009234)): Intersecting constraint edges detected: (52, 53) intersects (14, 15)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 1, svg: 8) ((0.867347,0.150210),(0.998724,0.050509)) -> ((-0.014794,0.292519),(0.966617,0.078245)): Intersecting constraint edges detected: (3, 4) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 10): Duplicate vertex detected: #8 is a duplicate of #4294967295
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 1, svg: 10): Duplicate vertex detected: #16 is a duplicate of #4294967294
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 11): No triangle was found at position
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1610",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 12): Duplicate vertex detected: #8 is a duplicate of #4294967295
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 1, svg: 12): Duplicate vertex detected: #16 is a duplicate of #4294967294
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 13): No triangle was found at position
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1610",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hole fill): Intersecting constraint edges detected: (18, 19) intersects (5, 9)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 16): Duplicate vertex detected: #17 is a duplicate of #52
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 1, svg: 16): Duplicate vertex detected: #16 is a duplicate of #30
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 17): No triangle was found at position
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1610",1,,nist_ftc_08_asme1_rc.stp
-"CDT Exception (hemisphere: 0, svg: 0) ((-0.212614,0.016671),(-0.133009,-0.025958)) -> ((-0.133009,0.025958),(-0.212614,-0.016671)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_10_asme1_rb.stp
-"CDT Exception (hemisphere: 1, svg: 0) ((-1.781266,0.139672),(-1.829957,-0.357137)) -> ((-1.829957,0.357137),(-1.781266,-0.139672)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_10_asme1_rb.stp
-"CDT Exception (hemisphere: 0, svg: 1) ((-0.212614,0.016671),(-0.133009,-0.025958)) -> ((-0.133009,0.025958),(-0.212614,-0.016671)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_10_asme1_rb.stp
-"CDT Exception (hemisphere: 1, svg: 1) ((-1.781266,0.139672),(-1.829957,-0.357137)) -> ((-1.829957,0.357137),(-1.781266,-0.139672)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_10_asme1_rb.stp
-"CDT Exception (hemisphere: 0, svg: 2) ((-0.386078,-0.412301),(-0.342781,-0.553615)) -> ((-0.278905,-0.396019),(-0.426255,-0.488630)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_10_asme1_rb.stp
-"CDT Exception (hemisphere: 1, svg: 2) ((-0.980948,-1.047576),(-0.710077,-1.146823)) -> ((-0.872703,-1.239157),(-0.888488,-1.018503)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_10_asme1_rb.stp
-"CDT Exception (hemisphere: 0, svg: 3) ((-0.386078,-0.412301),(-0.342781,-0.553615)) -> ((-0.278905,-0.396019),(-0.426255,-0.488630)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_10_asme1_rb.stp
-"CDT Exception (hemisphere: 1, svg: 3) ((-0.980948,-1.047576),(-0.710077,-1.146823)) -> ((-0.872703,-1.239157),(-0.888488,-1.018503)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_10_asme1_rb.stp
-"CDT Exception (hemisphere: 0, svg: 4) ((-1.781266,0.139671),(-1.829957,-0.357138)) -> ((-1.829957,0.357138),(-1.781266,-0.139671)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_10_asme1_rb.stp
-"CDT Exception (hemisphere: 1, svg: 4) ((-0.212614,0.016671),(-0.133009,-0.025958)) -> ((-0.133009,0.025958),(-0.212614,-0.016671)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_10_asme1_rb.stp
-"CDT Exception (hemisphere: 0, svg: 5) ((-0.426255,-0.488630),(-0.278905,-0.396019)) -> ((-0.342781,-0.553615),(-0.386078,-0.412301)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_10_asme1_rb.stp
-"CDT Exception (hemisphere: 1, svg: 5) ((-0.888488,-1.018503),(-0.872703,-1.239157)) -> ((-0.710077,-1.146823),(-0.980948,-1.047576)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_10_asme1_rb.stp
-"CDT Exception (hemisphere: 0, svg: 6) ((-0.426255,-0.488630),(-0.278905,-0.396019)) -> ((-0.342781,-0.553615),(-0.386078,-0.412301)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_10_asme1_rb.stp
-"CDT Exception (hemisphere: 1, svg: 6) ((-0.888488,-1.018503),(-0.872703,-1.239157)) -> ((-0.710077,-1.146823),(-0.980948,-1.047576)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_10_asme1_rb.stp
-"CDT Exception (hemisphere: 0, svg: 7) ((-1.781266,0.139671),(-1.829957,-0.357138)) -> ((-1.829957,0.357138),(-1.781266,-0.139671)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_10_asme1_rb.stp
-"CDT Exception (hemisphere: 1, svg: 7) ((-0.212614,0.016671),(-0.133009,-0.025958)) -> ((-0.133009,0.025958),(-0.212614,-0.016671)): Intersecting constraint edges detected: (38, 39) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_10_asme1_rb.stp
-"CDT Exception (hemisphere: 0, svg: 8) ((0.000000,0.053723),(0.000000,0.006972)) -> ((-0.014209,0.012176),(0.004625,0.011965)): Intersecting constraint edges detected: (36, 37) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_10_asme1_rb.stp
-"CDT Exception (hemisphere: 1, svg: 8) ((0.994279,0.106819),(0.950253,0.311480)) -> ((1.049774,0.126131),(0.850917,0.076986)): Intersecting constraint edges detected: (53, 54) intersects (14, 15)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_10_asme1_rb.stp
-"CDT Exception (hemisphere: 0, svg: 9) ((0.950253,0.311480),(0.994279,0.106819)) -> ((0.850917,0.076986),(1.049774,0.126131)): Intersecting constraint edges detected: (36, 37) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_10_asme1_rb.stp
-"CDT Exception (hemisphere: 1, svg: 9) ((0.950253,0.311480),(0.994279,0.106819)) -> ((1.140947,0.103226),(0.935945,0.112454)): Intersecting constraint edges detected: (36, 37) intersects (6, 7)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_10_asme1_rb.stp
-"CDT Exception (hemisphere: 1, svg: 0): Duplicate vertex detected: #0 is a duplicate of #68
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_ap203.stp
-"CDT Exception (hemisphere: 1, svg: 2): Duplicate vertex detected: #46 is a duplicate of #67
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_ap203.stp
-"CDT Exception (hemisphere: 1, svg: 6): Duplicate vertex detected: #0 is a duplicate of #68
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_ap203.stp
-"CDT Exception (hemisphere: 1, svg: 8): Duplicate vertex detected: #46 is a duplicate of #67
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_ap203.stp
+Error extracting face ADVANCED_FACE - [object Object] -,4,#11686 #11726 #11825 #11865,nist_ctc_04_asme1_rd.stp
+Error extracting face ADVANCED_FACE - [object Object] -,2,#360 #361,nist_ftc_06_asme1_rd.stp
+Error extracting face ADVANCED_FACE - [object Object] -,4,#1518 #1522 #1530 #1534,nist_ctc_04_asme1_ap203.stp
 "Error processing representation item: 
 	Error
 	Value in select must be populated
@@ -411,14 +66,7 @@ in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1
 	Error
 	Value in select must be populated
 	expressID: #4450",1,,nist_ctc_03_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 1, svg: 18): Duplicate vertex detected: #87 is a duplicate of #11
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_ap242-e1.stp
-"CDT Exception (hemisphere: 1, svg: 19): Duplicate vertex detected: #87 is a duplicate of #42
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_ap242-e1.stp
-"CDT Exception (hemisphere: 1, svg: 20): Duplicate vertex detected: #0 is a duplicate of #58
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_ap242-e1.stp
-"CDT Exception (hemisphere: 1, svg: 21): Duplicate vertex detected: #0 is a duplicate of #93
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_ctc_04_asme1_ap242-e1.stp
+Error extracting face ADVANCED_FACE - [object Object] -,4,#15884 #15932 #16052 #16100,nist_ctc_04_asme1_ap242-e1.stp
 "Error processing representation item: 
 	Error
 	Value in select must be populated
@@ -533,16 +181,16 @@ in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1
 	expressID: #7385",1,,nist_ftc_06_asme1_ap242-e2.stp
 "Error extracting face ADVANCED_FACE - Value in STEP was incorrectly typed	
 Error: Value in STEP was incorrectly typed
-    at b_spline_surface_with_knots.extractBoolean (file:///home/user/conway/compiled/src/step/step_entity_base.js:446:23)
-    at get u_closed (file:///home/user/conway/compiled/src/AP214E3_2010/AP214E3_2010_gen/b_spline_surface.gen.js:67:35)
-    at AP214GeometryExtraction.extractBSplineSurface (file:///home/user/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:2003:27)
-    at AP214GeometryExtraction.extractSurface (file:///home/user/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:2271:42)
-    at AP214GeometryExtraction.extractAdvancedFace (file:///home/user/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:2232:14)
-    at AP214GeometryExtraction.extractFaces (file:///home/user/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:1899:26)
-    at AP214GeometryExtraction.extractManifoldSolidBrep (file:///home/user/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:1822:14)
-    at AP214GeometryExtraction.extractRepresentationItem (file:///home/user/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:1805:18)
-    at Object.thunk (file:///home/user/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:2962:34)
-    at AP214GeometryExtraction.extractAP214GeometryData (file:///home/user/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:3138:32) -",20,#1566 #1633 #2305 #2385 #2465 #2545 #2846 #4124 #5953 #6056 #6159 #10029 #10905 #10944 #10997 #11036 #11357 #11396 #11851 #11890,nist_ftc_07_asme1_ap242-e2.stp
+    at b_spline_surface_with_knots.extractBoolean (file:///home/runner/work/conway/conway/compiled/src/step/step_entity_base.js:533:23)
+    at get u_closed (file:///home/runner/work/conway/conway/compiled/src/AP214E3_2010/AP214E3_2010_gen/b_spline_surface.gen.js:67:35)
+    at AP214GeometryExtraction.extractBSplineSurface (file:///home/runner/work/conway/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:2066:27)
+    at AP214GeometryExtraction.extractSurface (file:///home/runner/work/conway/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:2419:42)
+    at AP214GeometryExtraction.extractAdvancedFace (file:///home/runner/work/conway/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:2380:14)
+    at AP214GeometryExtraction.extractFaces (file:///home/runner/work/conway/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:1954:26)
+    at AP214GeometryExtraction.extractManifoldSolidBrep (file:///home/runner/work/conway/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:1877:14)
+    at AP214GeometryExtraction.extractRepresentationItem (file:///home/runner/work/conway/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:1860:18)
+    at file:///home/runner/work/conway/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:3147:34
+    at Array.<anonymous> (file:///home/runner/work/conway/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:3476:34) -",20,#1566 #1633 #2305 #2385 #2465 #2545 #2846 #4124 #5953 #6056 #6159 #10029 #10905 #10944 #10997 #11036 #11357 #11396 #11851 #11890,nist_ftc_07_asme1_ap242-e2.stp
 "Error processing representation item: 
 	Error
 	Value in select must be populated
@@ -755,34 +403,293 @@ Error: Value in STEP was incorrectly typed
 	Error
 	Value in select must be populated
 	expressID: #16528",1,,nist_ftc_07_asme1_ap242-e2.stp
-"CDT Exception (plane svg: 0) ((8.251767,-4.711157),(8.225041,-4.716711)) -> ((8.235326,-4.740170),(8.254163,-4.703815)): Intersecting constraint edges detected: (1436, 1437) intersects (1430, 1431)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_ap242-e2.stp
-"CDT Exception (plane svg: 1) ((6.335232,4.014701),(6.320261,3.991876)) -> ((6.344121,3.982561),(6.331734,4.021588)): Intersecting constraint edges detected: (1363, 1364) intersects (1357, 1358)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_ap242-e2.stp
-"CDT Exception (hole fill): Intersecting constraint edges detected: (24, 31) intersects (6, 10)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_ap242-e2.stp
-"CDT Exception (hole fill): Intersecting constraint edges detected: (37, 38) intersects (7, 9)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_ap242-e2.stp
-"CDT Exception (hole fill): Intersecting constraint edges detected: (34, 35) intersects (8, 9)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_ap242-e2.stp
-"CDT Exception (hole fill): Intersecting constraint edges detected: (48, 49) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_ap242-e2.stp
-"CDT Exception (hole fill): Intersecting constraint edges detected: (45, 46) intersects (33, 34)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_ap242-e2.stp
-"CDT Exception (hole fill): Intersecting constraint edges detected: (57, 58) intersects (19, 20)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_ftc_08_asme1_ap242-e2.stp
+Error populating styled item map for item 2308: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2318: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2328: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2338: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2348: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2358: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2368: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2378: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2388: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2398: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2408: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2418: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2428: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2438: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2448: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2458: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2468: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2478: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2488: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2498: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2508: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2518: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2528: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2538: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2548: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2558: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2568: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2578: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2588: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2598: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2608: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2618: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2628: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2638: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2648: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2658: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2668: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2678: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2688: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2698: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2708: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2718: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2728: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2738: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2748: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2758: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2768: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2778: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2788: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2798: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2808: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2818: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2828: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2838: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2848: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2858: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2868: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2878: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2888: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2898: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2908: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2918: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2928: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2938: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2948: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2958: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2968: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2978: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2988: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 2998: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3008: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3018: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3028: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3038: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3048: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3058: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3068: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3078: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3088: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3098: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3108: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3118: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3128: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3138: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3148: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3158: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3168: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3178: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3188: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3198: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3208: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3218: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3228: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3238: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3248: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3258: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3268: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3278: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3288: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3298: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3308: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3318: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3328: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3338: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3348: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3358: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3368: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3378: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3388: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3398: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3408: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3418: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3428: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3438: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3448: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3458: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3468: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3478: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3488: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3498: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3508: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3518: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3528: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3538: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3548: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3558: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3568: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3578: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3588: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3598: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3608: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3618: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3628: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3638: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3648: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3658: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3668: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3678: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3688: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3698: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3708: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3718: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3728: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3738: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3748: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3758: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3768: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3778: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3788: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3798: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3808: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3818: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3828: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3838: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3848: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3858: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3868: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3878: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3888: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3898: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3908: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3918: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3928: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3938: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3948: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3958: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3968: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3978: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3988: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 3998: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4008: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4018: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4028: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4038: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4048: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4058: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4068: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4078: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4088: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4098: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4108: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4118: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4128: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4138: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4148: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4158: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4168: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4178: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4188: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4198: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4208: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4218: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4228: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4238: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4248: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4258: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4268: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4278: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4288: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4298: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4308: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4318: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4328: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4338: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4348: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4358: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4368: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4378: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4388: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4398: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4408: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4418: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4428: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4438: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4448: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4458: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4468: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4478: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4488: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4498: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4508: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4518: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4528: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4538: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4548: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4558: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4568: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4578: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4588: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4598: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4608: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4618: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4628: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4638: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4648: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4658: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4668: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4678: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4688: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4698: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4708: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4718: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4728: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4738: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4748: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4758: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4768: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4778: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4788: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4798: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4808: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4818: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4828: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4838: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4848: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4858: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4868: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4878: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4888: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4898: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4908: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4918: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4928: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4938: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4948: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4958: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4968: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4978: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4988: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 4998: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 5008: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+Error populating styled item map for item 5018: Error: Value in STEP was incorrectly typed,1,,nist_ftc_08_asme1_ap242-e1-tg.stp
+"Error processing demand unit: 
+	Error
+	Value in STEP was incorrectly typed",2,,nist_ftc_08_asme1_ap242-e1-tg.stp
 "Error extracting face ADVANCED_FACE - Value in STEP was incorrectly typed	
 Error: Value in STEP was incorrectly typed
-    at b_spline_surface_with_knots.extractBoolean (file:///home/user/conway/compiled/src/step/step_entity_base.js:446:23)
-    at get u_closed (file:///home/user/conway/compiled/src/AP214E3_2010/AP214E3_2010_gen/b_spline_surface.gen.js:67:35)
-    at AP214GeometryExtraction.extractBSplineSurface (file:///home/user/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:2003:27)
-    at AP214GeometryExtraction.extractSurface (file:///home/user/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:2271:42)
-    at AP214GeometryExtraction.extractAdvancedFace (file:///home/user/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:2232:14)
-    at AP214GeometryExtraction.extractFaces (file:///home/user/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:1899:26)
-    at AP214GeometryExtraction.extractManifoldSolidBrep (file:///home/user/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:1822:14)
-    at AP214GeometryExtraction.extractRepresentationItem (file:///home/user/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:1805:18)
-    at Object.thunk (file:///home/user/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:2962:34)
-    at AP214GeometryExtraction.extractAP214GeometryData (file:///home/user/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:3138:32) -",1,#1573,nist_ftc_10_asme1_ap242-e2.stp
+    at b_spline_surface_with_knots.extractBoolean (file:///home/runner/work/conway/conway/compiled/src/step/step_entity_base.js:533:23)
+    at get u_closed (file:///home/runner/work/conway/conway/compiled/src/AP214E3_2010/AP214E3_2010_gen/b_spline_surface.gen.js:67:35)
+    at AP214GeometryExtraction.extractBSplineSurface (file:///home/runner/work/conway/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:2066:27)
+    at AP214GeometryExtraction.extractSurface (file:///home/runner/work/conway/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:2419:42)
+    at AP214GeometryExtraction.extractAdvancedFace (file:///home/runner/work/conway/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:2380:14)
+    at AP214GeometryExtraction.extractFaces (file:///home/runner/work/conway/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:1954:26)
+    at AP214GeometryExtraction.extractManifoldSolidBrep (file:///home/runner/work/conway/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:1877:14)
+    at AP214GeometryExtraction.extractRepresentationItem (file:///home/runner/work/conway/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:1860:18)
+    at file:///home/runner/work/conway/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:3147:34
+    at Array.<anonymous> (file:///home/runner/work/conway/conway/compiled/src/AP214E3_2010/ap214_geometry_extraction.js:3476:34) -",1,#1573,nist_ftc_10_asme1_ap242-e2.stp
 "Error processing representation item: 
 	Error
 	Value in select must be populated
@@ -1147,6 +1054,9 @@ Error: Value in STEP was incorrectly typed
 	Error
 	Value in select must be populated
 	expressID: #21076",1,,nist_ftc_10_asme1_ap242-e2.stp
+"Error processing demand unit: 
+	Error
+	Value in STEP was incorrectly typed",1,,nist_ftc_11_asme1_ap242-e2.stp
 "Error processing representation item: 
 	Error
 	Value in select must be populated
@@ -1475,119 +1385,6 @@ Error: Value in STEP was incorrectly typed
 	Error
 	Value in select must be populated
 	expressID: #11399",1,,nist_stc_06_asme1_ap242-e3.stp
-Error extracting face ADVANCED_FACE - [object Object] -,5,#842 #998 #4042 #4086 #7606,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 1): Duplicate vertex detected: #42 is a duplicate of #4294967295
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 0): Duplicate vertex detected: #25 is a duplicate of #73
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 1): Duplicate vertex detected: #42 is a duplicate of #84
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 0): Duplicate vertex detected: #104 is a duplicate of #4294967295
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 0): Duplicate vertex detected: #104 is a duplicate of #48
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 2) ((-0.000000,-1.986659),(-0.000000,-1.919911)) -> ((-0.000000,-1.975468),(-0.000000,-1.895442)): Intersecting constraint edges detected: (36, 37) intersects (10, 11)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 3) ((-0.000000,-0.013341),(-0.000000,-0.080089)) -> ((-0.000000,0.000152),(-0.000000,-0.024532)): Intersecting constraint edges detected: (37, 38) intersects (10, 11)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 3) ((1.695300,0.182284),(1.653258,-0.385787)) -> ((1.706479,0.042125),(1.609761,-0.513768)): Intersecting constraint edges detected: (26, 27) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 4) ((0.293238,0.031530),(0.294417,-0.068702)) -> ((0.292912,0.007231),(0.295552,-0.094328)): Intersecting constraint edges detected: (26, 27) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 4) ((1.067875,0.019912),(0.829853,0.011985)) -> ((0.999847,0.017452),(0.763198,0.010075)): Intersecting constraint edges detected: (26, 27) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 5) ((0.931778,0.017374),(1.169938,0.016897)) -> ((0.999848,0.017452),(1.236627,0.016325)): Intersecting constraint edges detected: (26, 27) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 5) ((-0.000003,-1.986659),(-0.000001,-1.919911)) -> ((-0.000002,-1.975468),(-0.000001,-1.895442)): Intersecting constraint edges detected: (72, 73) intersects (46, 47)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 6) ((-0.000000,-0.013341),(-0.000000,-0.080089)) -> ((-0.000000,0.000152),(-0.000000,-0.024532)): Intersecting constraint edges detected: (73, 74) intersects (46, 47)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 1): Duplicate vertex detected: #104 is a duplicate of #34
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 1): Duplicate vertex detected: #104 is a duplicate of #47
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 6) ((1.058398,-0.000000),(0.820003,-0.000000)) -> ((1.000000,-0.000000),(0.762867,-0.000000)): Intersecting constraint edges detected: (26, 27) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 7) ((0.941602,-0.000000),(1.179997,-0.000000)) -> ((1.000000,-0.000000),(1.237133,-0.000000)): Intersecting constraint edges detected: (26, 27) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 7) ((-0.000000,0.941603),(-0.000000,1.179996)) -> ((-0.000000,1.000000),(-0.000000,1.237133)): Intersecting constraint edges detected: (38, 39) intersects (12, 13)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 8) ((-0.000000,1.058397),(-0.000000,0.820004)) -> ((-0.000000,1.000000),(-0.000000,0.762867)): Intersecting constraint edges detected: (38, 39) intersects (12, 13)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 8) ((0.075812,0.997122),(-0.162802,0.986659)) -> ((0.017453,0.999848),(-0.220142,0.975468)): Intersecting constraint edges detected: (26, 27) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 9) ((0.075812,0.997122),(-0.162802,0.986659)) -> ((0.017453,0.999848),(-0.220142,0.975468)): Intersecting constraint edges detected: (26, 27) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 9) ((0.395723,0.009077),(0.213608,0.005695)) -> ((0.292912,0.007231),(0.136858,0.004081)): Intersecting constraint edges detected: (82, 83) intersects (58, 59)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 10) ((0.880581,0.014605),(1.135905,0.020956)) -> ((0.999848,0.017453),(0.998688,0.051199)): Intersecting constraint edges detected: (79, 80) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 10) ((0.000000,-0.013341),(0.000000,0.002878)) -> ((0.000000,0.000152),(0.000659,0.000348)): Intersecting constraint edges detected: (111, 112) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 11) ((0.000000,1.058397),(0.000000,0.820004)) -> ((0.033762,0.999430),(0.000000,1.000000)): Intersecting constraint edges detected: (117, 118) intersects (90, 91)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 4): Duplicate vertex detected: #104 is a duplicate of #34
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 2): Duplicate vertex detected: #104 is a duplicate of #47
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 13): Duplicate vertex detected: #52 is a duplicate of #4294967295
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 12): Duplicate vertex detected: #52 is a duplicate of #4294967295
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 6) ((-1.541689,-0.000000),(-1.422157,-0.000000)) -> ((-1.517451,-0.000000),(-1.398273,-0.000000)): Intersecting constraint edges detected: (26, 27) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 3) ((-1.458311,-0.000000),(-1.577843,-0.000000)) -> ((-1.482549,-0.000000),(-1.601727,-0.000000)): Intersecting constraint edges detected: (26, 27) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 7) ((0.000000,1.999410),(0.000000,1.990886)) -> ((0.000000,2.000000),(0.000000,1.985694)): Intersecting constraint edges detected: (95, 96) intersects (69, 70)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 4) ((0.000000,1.000590),(0.000000,1.009114)) -> ((0.000000,1.000000),(0.000000,1.014306)): Intersecting constraint edges detected: (95, 96) intersects (69, 70)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 8) ((0.715285,0.715285),(0.743124,0.743124)) -> ((0.751046,0.751046),(0.719363,0.719363)): Intersecting constraint edges detected: (83, 84) intersects (80, 81)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 5) ((1.406035,1.406035),(1.378196,1.378196)) -> ((1.370274,1.370275),(1.401957,1.401957)): Intersecting constraint edges detected: (83, 84) intersects (80, 81)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 6): Duplicate vertex detected: #104 is a duplicate of #45
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 9) ((-0.000000,1.541689),(-0.000000,1.422157)) -> ((-0.000000,1.517451),(-0.000000,1.398273)): Intersecting constraint edges detected: (26, 27) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 8) ((-0.000000,1.458311),(-0.000000,1.577843)) -> ((-0.000000,1.482549),(-0.000000,1.601727)): Intersecting constraint edges detected: (26, 27) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 10) ((1.999410,-0.000000),(1.990886,-0.000000)) -> ((2.000000,-0.000000),(1.985694,-0.000000)): Intersecting constraint edges detected: (95, 96) intersects (69, 70)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 9) ((1.000590,-0.000000),(1.009114,-0.000000)) -> ((1.000000,-0.000000),(1.014306,-0.000000)): Intersecting constraint edges detected: (95, 96) intersects (69, 70)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 13) ((-0.000000,1.999410),(-0.000000,1.990886)) -> ((-0.000000,2.000000),(-0.000000,1.985694)): Intersecting constraint edges detected: (26, 27) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 10) ((-0.000000,1.000590),(-0.000000,1.009114)) -> ((-0.000000,1.000000),(-0.000000,1.014306)): Intersecting constraint edges detected: (26, 27) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 14) ((-0.743124,0.743124),(-0.789134,0.789134)) -> ((-0.751046,0.751046),(-0.719363,0.719363)): Intersecting constraint edges detected: (15, 16) intersects (11, 12)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 11) ((-1.378197,1.378196),(-1.332186,1.332186)) -> ((-1.370275,1.370274),(-1.401957,1.401957)): Intersecting constraint edges detected: (15, 16) intersects (11, 12)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 15): Duplicate vertex detected: #104 is a duplicate of #4294967295
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 13): Duplicate vertex detected: #104 is a duplicate of #4294967295
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 16) ((-0.000000,1.999410),(-0.000000,1.990886)) -> ((-0.000000,2.000000),(-0.000000,1.985694)): Intersecting constraint edges detected: (26, 27) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 14) ((-0.000000,1.000590),(-0.000000,1.009114)) -> ((-0.000000,1.000000),(-0.000000,1.014306)): Intersecting constraint edges detected: (26, 27) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 17) ((-0.743124,0.743124),(-0.789134,0.789134)) -> ((-0.751046,0.751046),(-0.719363,0.719363)): Intersecting constraint edges detected: (15, 16) intersects (11, 12)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 15) ((-1.378197,1.378196),(-1.332186,1.332186)) -> ((-1.370275,1.370274),(-1.401957,1.401957)): Intersecting constraint edges detected: (15, 16) intersects (11, 12)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 18) ((-1.999410,-0.000000),(-1.990886,-0.000000)) -> ((-2.000000,-0.000000),(-1.985694,-0.000000)): Intersecting constraint edges detected: (26, 27) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 16) ((-1.000590,-0.000000),(-1.009114,-0.000000)) -> ((-1.000000,-0.000000),(-1.014306,-0.000000)): Intersecting constraint edges detected: (26, 27) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 18): Duplicate vertex detected: #35 is a duplicate of #88
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 14): No triangle was found at position
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1610",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 0, svg: 15) ((0.272447,-1.974009),(0.071407,-1.928835)) -> ((0.116694,-1.963803),(0.044552,-1.871056)): Intersecting constraint edges detected: (24, 25) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
-"CDT Exception (hemisphere: 1, svg: 14) ((0.000995,-0.007210),(0.002584,-0.069795)) -> ((0.000152,-0.000000),(0.001942,-0.032675)): Intersecting constraint edges detected: (25, 26) intersects (0, 1)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_07_asme1_ap242-e3.stp
 "Error processing representation item: 
 	Error
 	Value in select must be populated
@@ -1660,117 +1457,4 @@ in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1
 	Error
 	Value in select must be populated
 	expressID: #9089",1,,nist_stc_08_asme1_ap242-e3.stp
-"CDT Exception (plane svg: 0) ((-4.416464,15.762565),(-5.364248,15.093546)) -> ((-3.635752,15.093546),(-4.583536,15.762565)): Intersecting constraint edges detected: (29, 30) intersects (19, 20)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (plane svg: 8) ((41.407225,-30.799967),(39.537376,-33.167347)) -> ((40.462628,-33.167354),(38.592781,-30.799973)): Intersecting constraint edges detected: (120, 121) intersects (94, 95)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 0, svg: 0) ((0.000000,1.500000),(-0.311577,1.467283)) -> ((0.000000,1.568083),(0.000000,1.465879)): Intersecting constraint edges detected: (23, 24) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 1, svg: 0) ((0.000000,1.500000),(-0.311577,1.467283)) -> ((0.000000,1.431917),(0.000000,1.534121)): Intersecting constraint edges detected: (23, 24) intersects (7, 8)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 0, svg: 1) ((-1.023712,-0.102887),(-1.067413,-0.107279)) -> ((-1.050764,-0.105606),(-1.013436,-0.101854)): Intersecting constraint edges detected: (17, 18) intersects (13, 14)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 1, svg: 1) ((-1.961250,-0.197113),(-1.917549,-0.192721)) -> ((-1.934198,-0.194394),(-1.971526,-0.198146)): Intersecting constraint edges detected: (17, 18) intersects (13, 14)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 0, svg: 2) ((-1.023712,0.102887),(-1.067413,0.107279)) -> ((-1.106570,0.111214),(-1.050764,0.105606)): Intersecting constraint edges detected: (63, 64) intersects (58, 59)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 1, svg: 2) ((-1.961250,0.197113),(-1.917549,0.192721)) -> ((-1.878393,0.188786),(-1.934198,0.194394)): Intersecting constraint edges detected: (63, 64) intersects (58, 59)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 0, svg: 4) ((1.013436,-0.101854),(1.050764,-0.105606)) -> ((1.067413,-0.107279),(1.023712,-0.102887)): Intersecting constraint edges detected: (9, 10) intersects (5, 6)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 1, svg: 3) ((1.971526,-0.198146),(1.934198,-0.194394)) -> ((1.917549,-0.192721),(1.961250,-0.197113)): Intersecting constraint edges detected: (9, 10) intersects (5, 6)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 0, svg: 0) ((0.000000,-1.136167),(0.000000,-0.931758)) -> ((0.068242,-0.997669),(-0.136167,-0.990686)): Intersecting constraint edges detected: (52, 53) intersects (15, 16)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 1, svg: 0): Duplicate vertex detected: #46 is a duplicate of #2
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 0, svg: 1): Duplicate vertex detected: #0 is a duplicate of #41
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 0, svg: 13) ((-0.994966,-0.111241),(-1.012235,-0.113171)) -> ((-1.022499,-0.114319),(-0.998436,-0.111629)): Intersecting constraint edges detected: (54, 55) intersects (52, 53)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 1, svg: 4) ((-1.986458,-0.222093),(-1.969189,-0.220162)) -> ((-1.958925,-0.219014),(-1.982988,-0.221705)): Intersecting constraint edges detected: (54, 55) intersects (52, 53)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 0, svg: 15) ((0.998436,0.111629),(1.022499,0.114319)) -> ((1.012235,0.113171),(0.994966,0.111241)): Intersecting constraint edges detected: (16, 17) intersects (14, 15)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 1, svg: 5) ((1.982988,0.221705),(1.958925,0.219015)) -> ((1.969189,0.220162),(1.986458,0.222093)): Intersecting constraint edges detected: (16, 17) intersects (14, 15)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 1, svg: 2) ((-0.000000,0.006972),(-0.000000,0.053723)) -> ((0.004625,0.011965),(-0.014209,0.012176)): Intersecting constraint edges detected: (53, 54) intersects (14, 15)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 0, svg: 21) ((0.994353,-0.143522),(1.018317,-0.146981)) -> ((1.045226,-0.150865),(1.008095,-0.145506)): Intersecting constraint edges detected: (16, 17) intersects (13, 14)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 1, svg: 6) ((1.974877,-0.285049),(1.950913,-0.281590)) -> ((1.924004,-0.277706),(1.961135,-0.283066)): Intersecting constraint edges detected: (16, 17) intersects (13, 14)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 0, svg: 3) ((-0.000000,1.025189),(-0.000000,0.815142)) -> ((0.203969,0.978977),(-0.004317,0.999991)): Intersecting constraint edges detected: (54, 55) intersects (14, 15)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 1, svg: 3) ((-0.000000,0.974811),(-0.000000,1.184858)) -> ((0.203969,0.978977),(-0.004317,0.999991)): Intersecting constraint edges detected: (54, 55) intersects (14, 15)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 0, svg: 23) ((-1.008094,0.145506),(-1.045226,0.150865)) -> ((-1.061787,0.153256),(-1.018317,0.146981)): Intersecting constraint edges detected: (9, 10) intersects (5, 6)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 1, svg: 7) ((-1.961135,0.283066),(-1.924004,0.277706)) -> ((-1.907443,0.275316),(-1.950913,0.281590)): Intersecting constraint edges detected: (9, 10) intersects (5, 6)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 1, svg: 4): Duplicate vertex detected: #46 is a duplicate of #41
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 0, svg: 25) ((-0.000000,-1.500000),(0.314331,-1.466696)) -> ((-0.000000,-1.568083),(-0.000000,-1.465879)): Intersecting constraint edges detected: (69, 70) intersects (53, 54)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 1, svg: 8) ((-0.000000,-1.500000),(0.314331,-1.466696)) -> ((-0.000000,-1.431917),(-0.000000,-1.534121)): Intersecting constraint edges detected: (69, 70) intersects (53, 54)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 0, svg: 26) ((0.000000,-1.465879),(0.000000,-1.568083)) -> ((-0.312290,-1.467132),(0.000000,-1.500000)): Intersecting constraint edges detected: (61, 62) intersects (45, 46)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 1, svg: 9) ((0.000000,-1.534121),(0.000000,-1.431917)) -> ((-0.312290,-1.467132),(0.000000,-1.500000)): Intersecting constraint edges detected: (61, 62) intersects (45, 46)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 0, svg: 5): Duplicate vertex detected: #0 is a duplicate of #38
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 0, svg: 30) ((0.000000,-1.465879),(0.000000,-1.568083)) -> ((-0.311577,-1.467283),(0.000000,-1.500000)): Intersecting constraint edges detected: (61, 62) intersects (45, 46)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 1, svg: 10) ((0.000000,-1.534121),(0.000000,-1.431917)) -> ((-0.311577,-1.467283),(0.000000,-1.500000)): Intersecting constraint edges detected: (61, 62) intersects (45, 46)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 0, svg: 35) ((-0.000000,-1.500000),(0.305184,-1.468626)) -> ((-0.000000,-1.431917),(-0.000000,-1.534121)): Intersecting constraint edges detected: (69, 70) intersects (53, 54)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 1, svg: 11) ((-0.000000,-1.500000),(0.305184,-1.468626)) -> ((-0.000000,-1.568083),(-0.000000,-1.465879)): Intersecting constraint edges detected: (69, 70) intersects (53, 54)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 0, svg: 6) ((0.000000,-1.136167),(0.000000,-0.931758)) -> ((-0.068242,-0.997669),(0.136167,-0.990686)): Intersecting constraint edges detected: (52, 53) intersects (15, 16)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (hemisphere: 1, svg: 6) ((0.000000,-0.863833),(0.000000,-1.068242)) -> ((-0.068242,-0.997669),(0.136167,-0.990686)): Intersecting constraint edges detected: (53, 54) intersects (15, 16)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,nist_stc_10_asme1_ap242-e2.stp
-"CDT Exception (plane svg: 3) ((-3.269550,-2.816026),(-2.607697,-2.753291)) -> ((1.254995,-4.739478),(-4.444160,-2.014564)): Intersecting constraint edges detected: (55, 56) intersects (23, 24)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Equiptment_1mLSyringe.step
-"CDT Exception (plane svg: 5) ((-5.518575,0.982819),(-5.216643,0.375256)) -> ((-5.124439,1.046093),(-5.579093,0.542520)): Intersecting constraint edges detected: (73, 74) intersects (43, 44)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Equiptment_3mLSyringe.step
-"CDT Exception (plane svg: 0) ((19.379713,-60.000000),(40.000000,-60.000000)) -> ((23.752988,-60.059631),(23.067728,-59.723141)): Intersecting constraint edges detected: (27, 28) intersects (21, 22)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,TestSetup_UltrasoundTransducerScattering.step
-"CDT Exception (hemisphere: 0, svg: 2) ((0.002146,1.521327),(0.000000,1.500000)) -> ((0.058524,1.498858),(0.000000,1.500000)): Intersecting constraint edges detected: (86, 87) intersects (22, 23)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Jetenginestep.stp
-"CDT Exception (hemisphere: 1, svg: 0) ((0.002086,1.478670),(0.000000,1.500000)) -> ((0.058524,1.498858),(0.000000,1.500000)): Intersecting constraint edges detected: (86, 87) intersects (22, 23)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Jetenginestep.stp
-"CDT Exception (hemisphere: 0, svg: 3) ((0.658145,-1.371599),(0.650826,-1.351453)) -> ((0.597602,-1.375817),(0.650826,-1.351453)): Intersecting constraint edges detected: (86, 87) intersects (22, 23)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Jetenginestep.stp
-"CDT Exception (hemisphere: 1, svg: 1) ((0.639692,-1.333141),(0.650826,-1.351453)) -> ((0.597602,-1.375817),(0.650826,-1.351453)): Intersecting constraint edges detected: (86, 87) intersects (22, 23)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Jetenginestep.stp
-"CDT Exception (hemisphere: 0, svg: 4) ((-0.662012,-1.369737),(-0.650826,-1.351453)) -> ((-0.703058,-1.325032),(-0.650826,-1.351453)): Intersecting constraint edges detected: (86, 87) intersects (22, 23)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Jetenginestep.stp
-"CDT Exception (hemisphere: 1, svg: 2) ((-0.643450,-1.331331),(-0.650826,-1.351453)) -> ((-0.703058,-1.325032),(-0.650826,-1.351453)): Intersecting constraint edges detected: (86, 87) intersects (22, 23)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Jetenginestep.stp
-"CDT Exception (hemisphere: 0, svg: 5) ((0.000000,1.500000),(-0.058524,1.498858)) -> ((0.000000,1.500000),(-0.001973,1.519631)): Intersecting constraint edges detected: (87, 88) intersects (23, 24)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Jetenginestep.stp
-"CDT Exception (hemisphere: 1, svg: 3) ((0.000000,1.500000),(-0.058524,1.498858)) -> ((0.000000,1.500000),(-0.001922,1.480366)): Intersecting constraint edges detected: (87, 88) intersects (23, 24)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Jetenginestep.stp
-"CDT Exception (hemisphere: 0, svg: 6): Duplicate vertex detected: #23 is a duplicate of #133
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,Jetenginestep.stp
-"CDT Exception (hemisphere: 1, svg: 4): Duplicate vertex detected: #23 is a duplicate of #133
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,Jetenginestep.stp
-"CDT Exception (hemisphere: 0, svg: 7): Duplicate vertex detected: #133 is a duplicate of #23
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,Jetenginestep.stp
-"CDT Exception (hemisphere: 1, svg: 5): Duplicate vertex detected: #133 is a duplicate of #23
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,Jetenginestep.stp
-"CDT Exception (hemisphere: 0, svg: 8): Duplicate vertex detected: #138 is a duplicate of #161
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,Jetenginestep.stp
-"CDT Exception (hemisphere: 1, svg: 6): Duplicate vertex detected: #161 is a duplicate of #138
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,Jetenginestep.stp
-"CDT Exception (hemisphere: 0, svg: 9): Duplicate vertex detected: #230 is a duplicate of #253
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,Jetenginestep.stp
-"CDT Exception (hemisphere: 1, svg: 7): Duplicate vertex detected: #230 is a duplicate of #253
-in 'walkingSearchTrianglesAt' at ../external/CDT/CDT/include/Triangulation.hpp:1620",1,,Jetenginestep.stp
-"CDT Exception (hemisphere: 0, svg: 10) ((-1.482706,0.340619),(-1.462392,0.333781)) -> ((-1.448256,0.390584),(-1.462392,0.333781)): Intersecting constraint edges detected: (86, 87) intersects (22, 23)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Jetenginestep.stp
-"CDT Exception (hemisphere: 1, svg: 8) ((-1.441133,0.331069),(-1.462392,0.333781)) -> ((-1.448256,0.390584),(-1.462392,0.333781)): Intersecting constraint edges detected: (86, 87) intersects (22, 23)
-in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Jetenginestep.stp
+Error extracting face ADVANCED_FACE - [object Object] -,4,#7098 #7107 #7134 #7141,nist_stc_10_asme1_ap242-e2.stp
