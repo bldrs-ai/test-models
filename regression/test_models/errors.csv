@@ -48,8 +48,6 @@ in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1
 	error: Value in STEP was incorrectly typed",14,370003 43 44 3090003 11280003 14100003 23420003 31610003 34300003 36990003 39680003 42370005 58330003 61020003,KIT-Simple-Road-Test-Web-IFC4x3_RC2.ifc
 "Outer bound of this face is collinear, cannot form a basis",12,,S_Office_Integrated Design Archi.ifc
 "Outer bound of this face is collinear, cannot form a basis",41,,SKYLARK250_design-kit_blocks_detailed.ifc
-"Outer bound of this face is collinear, cannot form a basis",1,,supercap2.step
-"Outer bound of this face is collinear, cannot form a basis",1,,supercap3.step
 Error populating styled item map: Error: Value in STEP was incorrectly typed,2,#5400 #6765,NEMA 23 - 76mm.STEP
 "CDT Exception (revolution unwrap): Intersecting constraint edges detected: (49, 50) intersects (22, 23)
 in 'insertEdgeIteration' at ../external/CDT/CDT/include/Triangulation.hpp:554",1,,Jetenginestep.stp
