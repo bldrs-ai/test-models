@@ -6,7 +6,7 @@
 #   yarn setup 'ifc/misc/**'    # just these git-lfs --include patterns
 #
 # Every model here is an LFS object. A clone made without git-lfs, or with a
-# system config that skips smudge, has 132-byte pointer files where the
+# system config that skips smudge, has ~130-byte pointer files where the
 # models should be. Anything that reads them fails or produces nothing.
 # conway's regression batch now refuses a pointer (conway#486), but only after
 # two models had been blessed at zero rows (conway#477).
@@ -17,13 +17,31 @@
 # checkout never silently pulls gigabytes of IFC. Models arrive only through
 # an explicit `git lfs pull`, which is what the rest of this script does.
 #
+# Exits 0 only when everything asked for is materialized: a pattern or a
+# smoke-list name that matches nothing is an error, not an empty success.
 # Idempotent. Already-present objects are not fetched again.
+#
+# Kept to bash 3.2 (macOS's /bin/bash): no mapfile, and empty arrays are
+# expanded with the ${a[@]+"${a[@]}"} form, which `set -u` accepts there.
 
 set -euo pipefail
 
 cd "$(dirname "$0")/.."
 
 log() { printf '[test-models setup] %s\n' "$*"; }
+
+case "${1:-}" in
+  -h | --help)
+    sed -n '2,6p' "$0" | sed 's/^# \{0,1\}//'
+    exit 0
+    ;;
+  --all)
+    if [ $# -gt 1 ]; then
+      log "--all takes no other arguments (got: $*)"
+      exit 2
+    fi
+    ;;
+esac
 
 # 1. The git-lfs binary. Cloud sandboxes and fresh CI images often lack it.
 if ! command -v git-lfs >/dev/null 2>&1; then
@@ -37,8 +55,23 @@ if ! command -v git-lfs >/dev/null 2>&1; then
 
   if [ "$SUDO" != none ] && command -v apt-get >/dev/null 2>&1; then
     log "installing git-lfs (apt)"
-    $SUDO apt-get install -y git-lfs >/dev/null 2>&1 ||
-      { $SUDO apt-get update >/dev/null 2>&1 && $SUDO apt-get install -y git-lfs >/dev/null; }
+    # Noninteractive, and willing to wait out an apt lock held by something
+    # like unattended-upgrades on a freshly booted machine. stderr is left
+    # alone so a failure says why.
+    apt() {
+      $SUDO env DEBIAN_FRONTEND=noninteractive apt-get -o DPkg::Lock::Timeout=120 "$@" >/dev/null
+    }
+    if ! apt install -y git-lfs && ! { apt update && apt install -y git-lfs; }; then
+      log "could not install git-lfs with apt; see the errors above"
+      exit 1
+    fi
+    # The Debian/Ubuntu package's postinst runs `git lfs install --system`,
+    # which turns smudge ON machine-wide and overwrites whatever the machine
+    # had. A cloud sandbox may have set skip-smudge there on purpose. After
+    # this, every clone of this repo would pull all ~3.5 GB at checkout, which
+    # filled the disk once while this script was being tested. Put
+    # skip-smudge back system-wide; it matches the per-clone setting below.
+    $SUDO git lfs install --system --skip-smudge --skip-repo >/dev/null
   elif command -v brew >/dev/null 2>&1; then
     log "installing git-lfs (brew)"
     brew install git-lfs
@@ -53,29 +86,55 @@ fi
 git lfs install --local --skip-smudge >/dev/null
 
 # 3. What to pull. Patterns are git-lfs --include syntax, comma-joined below.
-# Model paths contain spaces ("driver board.step", "AP203 geometry only/")
-# but no commas, so a comma join is safe.
+#
+# git-lfs splits --include on commas before it reads any pattern, so a path
+# with a comma in it cannot be escaped, only matched around: each of , [ ] *
+# in a resolved path becomes ?, which matches any one character, including
+# itself. `ifc/bldrs/ïndex wëird, chars!123.ifc` is the path that needs it.
 includes=()
+resolved=()
+unresolved=()
+as_pattern() {
+  local p=$1
+  p=${p//,/?}; p=${p//\[/?}; p=${p//\]/?}; p=${p//\*/?}
+  printf '%s' "$p"
+}
+
 if [ $# -eq 0 ]; then
   # The whole STEP corpus is ~280 MB, small enough to take every time.
   includes+=("step/**")
 
   # Also take every model named on conway's PR-smoke list when conway is
   # checked out beside this repo, which is the layout of multi-repo sessions.
-  # The list holds basenames, so each is resolved to its paths here. A name
-  # can match more than one path; index.ifc does, and both copies are taken.
+  # The list holds basenames, matched here as literal strings against every
+  # tracked path's basename, so a name with glob characters in it means only
+  # itself. A name can match more than one path; index.ifc does, and both
+  # copies are taken. -z with core.quotePath=false keeps non-ASCII paths as
+  # bytes rather than C-quoted strings.
   smoke=../conway/regression/smoke_models.txt
   if [ -f "$smoke" ]; then
     while IFS= read -r name || [ -n "$name" ]; do
+      name=${name%$'\r'}
+      name=${name#"${name%%[![:space:]]*}"}
+      name=${name%"${name##*[![:space:]]}"}
       case "$name" in '' | '#'*) continue ;; esac
-      while IFS= read -r path; do
-        includes+=("$path")
-      done < <(git ls-files -- "$name" "*/$name")
+      found=0
+      while IFS= read -r -d '' path; do
+        if [ "${path##*/}" = "$name" ]; then
+          includes+=("$(as_pattern "$path")")
+          resolved+=("$path")
+          found=1
+        fi
+      done < <(git -c core.quotePath=false ls-files -z)
+      # Not fatal here, so everything else still arrives; it fails the run
+      # at the end. A conway checkout newer than this one is the usual cause.
+      if [ "$found" = 0 ]; then
+        log "smoke list names '$name', but no tracked path has that name"
+        unresolved+=("$name")
+      fi
     done < "$smoke"
   fi
-elif [ "$1" = --all ]; then
-  : # an empty include list pulls everything
-else
+elif [ "$1" != --all ]; then
   includes=("$@")
 fi
 
@@ -103,19 +162,40 @@ for attempt in 1 2 3 4; do
   sleep $((2 ** attempt))
 done
 
-# 5. Report. In `git lfs ls-files` output, '*' marks an object that is
-# present in the working tree and '-' marks one that is still a pointer.
+# 5. Verify. In `git lfs ls-files` output, '*' marks an object that is present
+# in the working tree and '-' marks one that is still a pointer. The marker is
+# matched by field, not by substring: "NEMA 23 - 76mm.STEP" has " - " in its
+# name. Counting is done in awk, because BSD `wc -l` pads its output.
 if [ -n "$joined" ]; then
   listing=$(git lfs ls-files --include="$joined")
 else
   listing=$(git lfs ls-files)
 fi
-# Match the marker by field, not by substring: "NEMA 23 - 76mm.STEP" has
-# " - " in its name.
-present=$(printf '%s\n' "$listing" | awk '$2 == "*"' | wc -l)
-missing=$(printf '%s\n' "$listing" | awk '$2 == "-"' | wc -l)
+present=$(printf '%s\n' "$listing" | awk '$2 == "*" { n++ } END { print n + 0 }')
+missing=$(printf '%s\n' "$listing" | awk '$2 == "-" { n++ } END { print n + 0 }')
+
+# Every path resolved from the smoke list is also checked on disk, by its own
+# name, so a pattern that silently matched nothing cannot pass for success.
+stubs=()
+for path in ${resolved[@]+"${resolved[@]}"}; do
+  if head -c 64 "$path" | grep -q '^version https://git-lfs'; then
+    stubs+=("$path")
+  fi
+done
+
 log "materialized: $present, still pointers: $missing"
-if [ "$missing" != 0 ]; then
+if [ $((present + missing)) = 0 ]; then
+  log "nothing matched: ${joined:-<all>}"
+  exit 1
+fi
+if [ ${#unresolved[@]} != 0 ]; then
+  log "unresolved smoke-list names: ${unresolved[*]}"
+  exit 1
+fi
+if [ "$missing" != 0 ] || [ ${#stubs[@]} != 0 ]; then
   printf '%s\n' "$listing" | awk '$2 == "-"' | sed 's/^/  /'
+  for path in ${stubs[@]+"${stubs[@]}"}; do
+    printf '  still a pointer: %s\n' "$path"
+  done
   exit 1
 fi

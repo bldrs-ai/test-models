@@ -3,7 +3,7 @@
 ## Getting the model files
 
 Every model here is stored in [Git LFS](https://git-lfs.com). A clone made
-without git-lfs, or with smudge skipped, has 132-byte pointer files in place
+without git-lfs, or with smudge skipped, has ~130-byte pointer files in place
 of the models. Run
 
 ```
@@ -17,7 +17,18 @@ on the LFS filters for this clone, pulls, and lists anything that is still a
 pointer. The filters matter beyond downloading: without the clean filter,
 `git add` on a materialized model commits its raw bytes over the pointer.
 Smudge stays skipped, so a branch checkout never pulls gigabytes on its own;
-models arrive only through an explicit pull.
+models arrive only through an explicit pull. When the script installs git-lfs
+with apt, it also puts skip-smudge back system-wide, because the package's own
+install step turns it on.
+
+It exits non-zero unless everything asked for arrived. That includes a
+pattern or a smoke-list name that matches nothing, and a GitHub LFS bandwidth
+or quota error after four tries. From an environment setup script that should
+carry on regardless, call it as
+
+```
+( cd test-models && yarn setup ) || echo "test-models: models not materialized"
+```
 
 
 ## IFC
