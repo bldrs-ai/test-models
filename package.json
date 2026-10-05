@@ -1,3 +1,6 @@
 {
-  "license": "CC-BY-SA-4.0"
+  "license": "CC-BY-SA-4.0",
+  "scripts": {
+    "setup": "bash tools/lfs-setup.sh"
+  }
 }
