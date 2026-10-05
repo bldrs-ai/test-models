@@ -42,6 +42,14 @@ case "${1:-}" in
     fi
     ;;
 esac
+# An empty pattern would empty the include list, and an empty list pulls all
+# ~3.5 GB. Only --all may do that.
+for arg in "$@"; do
+  if [ -z "$arg" ]; then
+    log "empty pattern argument; use --all to pull everything"
+    exit 2
+  fi
+done
 
 # 1. The git-lfs binary. Cloud sandboxes and fresh CI images often lack it.
 if ! command -v git-lfs >/dev/null 2>&1; then
@@ -54,6 +62,8 @@ if ! command -v git-lfs >/dev/null 2>&1; then
   fi
 
   if [ "$SUDO" != none ] && command -v apt-get >/dev/null 2>&1; then
+    # Read before the install, which rewrites it. See below.
+    smudgeBefore=$(git config --system --get filter.lfs.smudge 2>/dev/null || true)
     log "installing git-lfs (apt)"
     # Noninteractive, and willing to wait out an apt lock held by something
     # like unattended-upgrades on a freshly booted machine. stderr is left
@@ -67,11 +77,20 @@ if ! command -v git-lfs >/dev/null 2>&1; then
     fi
     # The Debian/Ubuntu package's postinst runs `git lfs install --system`,
     # which turns smudge ON machine-wide and overwrites whatever the machine
-    # had. A cloud sandbox may have set skip-smudge there on purpose. After
-    # this, every clone of this repo would pull all ~3.5 GB at checkout, which
-    # filled the disk once while this script was being tested. Put
-    # skip-smudge back system-wide; it matches the per-clone setting below.
-    $SUDO git lfs install --system --skip-smudge --skip-repo >/dev/null
+    # had. Cloud sandboxes set skip-smudge there on purpose; with it gone,
+    # every later clone of this repo pulls all ~3.5 GB at checkout, which
+    # filled the disk once while this script was being tested. So when the
+    # machine had skip-smudge before, put it back. A machine that had no
+    # system LFS config keeps the package's default.
+    case "$smudgeBefore" in
+      *--skip*)
+        log "restoring system-wide skip-smudge, which the package install turned off"
+        if ! $SUDO git lfs install --system --skip-smudge --skip-repo >/dev/null; then
+          log "could not restore skip-smudge in the system git config; clones will now pull every model"
+          exit 1
+        fi
+        ;;
+    esac
   elif command -v brew >/dev/null 2>&1; then
     log "installing git-lfs (brew)"
     brew install git-lfs
@@ -96,7 +115,7 @@ resolved=()
 unresolved=()
 as_pattern() {
   local p=$1
-  p=${p//,/?}; p=${p//\[/?}; p=${p//\]/?}; p=${p//\*/?}
+  p=${p//\\/?}; p=${p//,/?}; p=${p//\[/?}; p=${p//\]/?}; p=${p//\*/?}
   printf '%s' "$p"
 }
 
@@ -174,11 +193,29 @@ fi
 present=$(printf '%s\n' "$listing" | awk '$2 == "*" { n++ } END { print n + 0 }')
 missing=$(printf '%s\n' "$listing" | awk '$2 == "-" { n++ } END { print n + 0 }')
 
+# Every pattern must match something on its own: one that matches nothing
+# would otherwise pass as long as another pattern matched. Smoke-list names
+# were already checked when they were resolved, so this covers step/** and
+# explicit patterns.
+unmatched=()
+if [ $# -eq 0 ]; then
+  checked=("step/**")
+elif [ "$1" != --all ]; then
+  checked=("$@")
+else
+  checked=()
+fi
+for pattern in ${checked[@]+"${checked[@]}"}; do
+  if [ -z "$(git lfs ls-files --include="$pattern")" ]; then
+    unmatched+=("$pattern")
+  fi
+done
+
 # Every path resolved from the smoke list is also checked on disk, by its own
 # name, so a pattern that silently matched nothing cannot pass for success.
 stubs=()
 for path in ${resolved[@]+"${resolved[@]}"}; do
-  if head -c 64 "$path" | grep -q '^version https://git-lfs'; then
+  if [ ! -f "$path" ] || head -c 64 -- "$path" | grep -q '^version https://git-lfs'; then
     stubs+=("$path")
   fi
 done
@@ -186,6 +223,10 @@ done
 log "materialized: $present, still pointers: $missing"
 if [ $((present + missing)) = 0 ]; then
   log "nothing matched: ${joined:-<all>}"
+  exit 1
+fi
+if [ ${#unmatched[@]} != 0 ]; then
+  log "patterns that matched nothing: ${unmatched[*]}"
   exit 1
 fi
 if [ ${#unresolved[@]} != 0 ]; then

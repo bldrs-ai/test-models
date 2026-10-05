@@ -18,8 +18,9 @@ pointer. The filters matter beyond downloading: without the clean filter,
 `git add` on a materialized model commits its raw bytes over the pointer.
 Smudge stays skipped, so a branch checkout never pulls gigabytes on its own;
 models arrive only through an explicit pull. When the script installs git-lfs
-with apt, it also puts skip-smudge back system-wide, because the package's own
-install step turns it on.
+with apt on a machine whose system git config already skipped smudge (cloud
+sandboxes do), it puts that back, because the package's own install step
+turns smudge on machine-wide.
 
 It exits non-zero unless everything asked for arrived. That includes a
 pattern or a smoke-list name that matches nothing, and a GitHub LFS bandwidth
